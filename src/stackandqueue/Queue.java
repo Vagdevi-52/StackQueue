@@ -38,5 +38,13 @@ public class Queue
 		}
 
 	}
-
+		public void deQueue() {
+			if (front != null) {
+				int temp = front.data;
+				front = front.next;
+				length--;
+				return;
+			}
+			
+	}
 }

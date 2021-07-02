@@ -11,6 +11,11 @@ public class QueueMain
 		queue.enQueue(30);
 		queue.enQueue(70);
 		
+		queue.deQueue();
+		queue.deQueue();
+		queue.deQueue();
+		
+		
 
 		queue.print();
 	}
